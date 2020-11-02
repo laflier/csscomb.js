@@ -1,5 +1,70 @@
 # Changelog
 
+## 4.3.0 - 2019-03-24
+
+- Updated GPE to v4.2.4
+- Updated list of supported Node version to reflect https://nodejs.org/en/about/releases/
+- Fixed #551
+- [cli] Fixed parsing of tty-mode option as boolean
+
+## 4.2.0 - 2017-06-12
+
+- Fixed - align for flexbox properies (#507)
+- Updated - replace '\n' with os.EOL for terminal output (#524)
+- Updated - vow-fs dependency (#526)
+- Fixed - Add empty new line in the end of cli help text (#516)
+- Fixed - Endless loop with empty files (#506)
+- Added - Include all flexbox properties in config files (#509)
+
+## 4.1.0 - 2017-05-16
+
+- Added new `--tty-mode` option for cli.
+- Fixed an issue with calling gpe methods on non-existing nodes.
+
+## 4.0.1 - 2017-02-28
+
+- Added `babel-polyfill` to dependencies.
+
+## 4.0.0 - 2017-02-16
+
+- Added note about maintenance mode
+- Updated GPE to v3.4.7, which fixed a number of errors
+- Added `lines-between-rulesets` option
+- Added support for stdin in cli
+- For `sort-order` option, divided `$include` into `$extend`, `$include name` and `$include`
+
+## 3.1.7 - 2015-06-09
+
+- Do not remove units from values starting from zeroes, like `0.5em` (#394)
+
+## 3.1.6 - 2015-06-09
+- Hotfix for issue when `unitless-zero` crashed on percentages in Less (#389)
+
+## 3.1.5 - 2015-05-27
+- Fixed dependencies
+
+## 3.1.4 - 2015-05-24
+- Fixed `space-after-opening-brace` option for empty media queries (#387)
+
+## 3.1.3 - 2015-05-20
+- Do not add extra space before combinators which go first in selectors (#381)
+
+## 3.1.2 - 2015-05-20
+- Fixed processing of hashes (#379)
+
+## 3.1.1 - 2015-05-20
+- Fixed `space-between-declarations` vs. media queries (#378)
+
+## 3.1.0 - 2015-05-19
+**Thanks to
+[@1000ch](https://github.com/1000ch),
+[@alexeykuzmin](https://github.com/alexeykuzmin),
+[@jonrohan](https://github.com/jonrohan)**
+- Used new Gonzales PE API
+- Fixed nested properties (#319)
+- Added support for symlinked configs
+- Added support for configs with any extension
+
 ## 3.0.4 - 2014-11-15
 **Thanks to
 [@gonzalocasas](https://github.com/gonzalocasas),
